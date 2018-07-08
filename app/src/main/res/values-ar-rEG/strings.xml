@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">كأس العالم 2018</string>
+
+  <string name="russia">روسيا</string>
+  <string name="ksa">السعودية</string>
+  <string name="egypt">مصر</string>
+  <string name="uruguay">الاوروجواي</string>
+  <string name="portugal">البرتغال</string>
+  <string name="spain">اسبانيا</string>
+  <string name="morocco">المغرب</string>
+  <string name="iran">ايران</string>
+  <string name="france">فرنسا</string>
+  <string name="denmark">الدنمارك</string>
+  <string name="peru">بيرو</string>
+  <string name="australia">استراليا</string>
+  <string name="argentina">الارجنتين</string>
+  <string name="iceland">ايسلندا</string>
+  <string name="croatia">كرواتيا</string>
+  <string name="nigeria">نيجيريا</string>
+  <string name="brazil">البرازيل</string>
+  <string name="switherland">سويسرا</string>
+  <string name="costa">كوستا ريكا</string>
+  <string name="serbia">صربيا</string>
+  <string name="germany">المانيا</string>
+  <string name="mexico">المكسيك</string>
+  <string name="sweden">السويد</string>
+  <string name="southkorea">كوريا الجنوبية</string>
+  <string name="belguim">بلجيكا</string>
+  <string name="panama">بنما</string>
+  <string name="tunisia">تونس</string>
+  <string name="england">انجلترا</string>
+  <string name="poland">بولندا</string>
+  <string name="senegal">السنغال</string>
+  <string name="japan">اليابان</string>
+  <string name="colombia">كولومبيا</string>
+
+  <!-- History words !-->
+  <string name="fwc">كاس العالم فيفا</string>
+  <string name="final_res">النتائج النهائية</string>
+  <string name="winner">الفائز</string>
+  <string name="second">الثاني</string>
+  <string name="third">الثالث</string>
+  <string name="final_match">المبارة النهائية</string>
+  <string name="cup_best">اللحظات المميزة</string>
+  <string name="gold_glove">أفضل حارس</string>
+  <string name="best_ply">افضل لاعب</string>
+  <string name="golden_bot">الهداف</string>
+
+  <!-- Other strings !-->
+  <string name="no_url_msg">المبارة لم تلعب او ملخص المبارة غير جاهز بعد!</string>
+  <string name="recap">ملخص المبارة</string>
+  <string name="knockout">المرحلة الاقصائية</string>
+  <string name="round16">دور ال16</string>
+  <string name="quarterfinal">ربع النهائي</string>
+
+</resources>

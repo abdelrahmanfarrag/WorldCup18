@@ -1,0 +1,95 @@
+<resources>
+  <string name="app_name">WorldCup18</string>
+  <!-- National !-->
+  <string name="russia">Russia</string>
+  <string name="ksa">Saudi Arabia</string>
+  <string name="egypt">Egypt</string>
+  <string name="uruguay">Uruguay</string>
+  <string name="portugal">Portugal</string>
+  <string name="spain">Spain</string>
+  <string name="morocco">Morocco</string>
+  <string name="iran">Iran</string>
+  <string name="france">France</string>
+  <string name="denmark">Denmark</string>
+  <string name="peru">Peru</string>
+  <string name="australia">Australia</string>
+  <string name="argentina">Argentina</string>
+  <string name="iceland">Iceland</string>
+  <string name="croatia">Croatia</string>
+  <string name="nigeria">Nigeria</string>
+  <string name="brazil">Brazil</string>
+  <string name="switherland">Switzerland</string>
+  <string name="costa">Costa Rica</string>
+  <string name="serbia">Serbia</string>
+  <string name="germany">Germany</string>
+  <string name="mexico">Mexico</string>
+  <string name="sweden">Sweden</string>
+  <string name="southkorea">South Korea</string>
+  <string name="belguim">Belgium</string>
+  <string name="panama">Panama</string>
+  <string name="tunisia">Tunisia</string>
+  <string name="england">England</string>
+  <string name="poland">Poland</string>
+  <string name="senegal">Senegal</string>
+  <string name="japan">Japan</string>
+  <string name="colombia">Colombia</string>
+
+  <!-- Stadiums !-->
+  <string name="moscow">Luzhniki Stadium,Moscow</string>
+  <string name="peters">Saint Petersburg Stadium,Petersburg</string>
+  <string name="fisht">Fisht Stadium,Fisht</string>
+  <string name="ekater">Ekaterinburg Arena,Ekaterinburg</string>
+  <string name="kazan">Kazan Arena,Kazan</string>
+  <string name="nizhny">Nizhny Novgorod Stadium,Nizhny Novgorod</string>
+  <string name="rostov">Rostov Arena,Rostov</string>
+  <string name="samara">Samara Arena,Samara</string>
+  <string name="saransk">Mordovia Arena,Saransk</string>
+  <string name="volgograd">Volgograd Stadium,Volgograd</string>
+  <string name="spartak">Spartak Stadium,Moscow</string>
+  <string name="kaliningrad">Kaliningrad Stadium,Kaliningrad</string>
+
+  <!-- History words !-->
+  <string name="fwc">FIFA WORLD CUP</string>
+  <string name="final_res">FINAL RESULTS</string>
+  <string name="winner">Winner</string>
+  <string name="second">2nd</string>
+  <string name="third">3rd</string>
+  <string name="final_match">Final Match</string>
+  <string name="cup_best">View cup best moments</string>
+  <string name="gold_glove">Gold glove</string>
+  <string name="best_ply">Best player</string>
+  <string name="golden_bot">Golden boot</string>
+
+  <!-- Other strings !-->
+  <string name="no_url_msg">Match not player,or recaps not ready !</string>
+  <string name="recap">View match summary</string>
+  <string name="knockout">TO KNOCKOUT PHASE</string>
+  <string name="round16">Round of 16</string>
+  <string name="quarterfinal">Quarter Final</string>
+
+  <!-- API KEY !-->
+  <string name="api_key">AIzaSyAYIQlTq-hOgZWmTqJHKlARbf109_tARYI</string>
+
+  <string-array name="cup">
+    <item>Uruguay 1930</item>
+    <item>Italy 1934</item>
+    <item>France 1938</item>
+    <item>Brazil 1950</item>
+    <item>Switzerland 1954</item>
+    <item>Sweden 1958</item>
+    <item>Chile 1962</item>
+    <item>England 1966</item>
+    <item>Mexico 1970</item>
+    <item>West Germany 1974</item>
+    <item>Argentina 1978</item>
+    <item>Spain 1982</item>
+    <item>Mexico 1986</item>
+    <item>Italy 1990</item>
+    <item>United states 1994</item>
+    <item>France 1998</item>
+    <item>South korea and Japan 2002</item>
+    <item>Germany 2006</item>
+    <item>South africa 2010</item>
+    <item>Brazil 2014</item>
+  </string-array>
+</resources>

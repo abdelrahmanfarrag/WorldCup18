@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string-array name="cup2">
+    <item>Uruguay 1930</item>
+    <item>Italy 1934</item>
+    <item>France 1938</item>
+    <item>Brazil 1950</item>
+    <item>Switzerland 1954</item>
+    <item>Sweden 1958</item>
+    <item>Chile 1962</item>
+    <item>England 1966</item>
+    <item>Mexico 1970</item>
+    <item>West Germany 1974</item>
+    <item>Argentina 1978</item>
+    <item>Spain 1982</item>
+    <item>Mexico 1986</item>
+    <item>Italy 1990</item>
+    <item>United states 1994</item>
+    <item>France 1998</item>
+    <item>South korea and Japan 2002</item>
+    <item>Germany 2006</item>
+    <item>South africa 2010</item>
+    <item>Brazil 2014</item>
+  </string-array>
+</resources>

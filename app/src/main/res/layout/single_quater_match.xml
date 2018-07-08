@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="150dp"
+    android:layout_height="@dimen/large_view_height"
+    app:cardBackgroundColor="@color/pureRed">
+
+  <android.support.constraint.ConstraintLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha=".4"
+        android:background="@drawable/single_match_bg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"/>
+
+    <TextView
+        android:id="@+id/quarter_stadium_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/autour_one"
+        android:text="@string/peters"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <ImageView
+        android:id="@+id/first_team_quarter_img"
+        android:layout_width="@dimen/s_medium_view_width"
+        android:layout_height="@dimen/small_view_height"
+        android:layout_marginStart="@dimen/small_margin"
+        android:layout_marginTop="@dimen/small_margin"
+        android:background="@drawable/egypt"
+        android:scaleType="fitXY"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/quarter_stadium_name"/>
+
+    <ImageView
+        android:id="@+id/second_team_quarter_img"
+        android:layout_width="@dimen/s_medium_view_width"
+        android:layout_height="@dimen/small_view_height"
+        android:layout_marginTop="@dimen/x_small_margin"
+        android:background="@drawable/brazil"
+        android:scaleType="fitXY"
+        app:layout_constraintStart_toStartOf="@+id/first_team_quarter_img"
+        app:layout_constraintTop_toBottomOf="@+id/first_team_quarter_img"/>
+
+    <TextView
+        android:id="@+id/first_team_quarter_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/small_margin"
+        android:fontFamily="@font/autour_one"
+        android:text="0"
+        android:textColor="@color/white"
+        android:textSize="@dimen/medium_txt_size"
+        app:layout_constraintBottom_toBottomOf="@+id/first_team_quarter_img"
+        app:layout_constraintStart_toEndOf="@+id/first_team_quarter_img"
+        app:layout_constraintTop_toTopOf="@+id/first_team_quarter_img"/>
+
+    <TextView
+        android:id="@+id/second_team_quarter_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/small_margin"
+        android:fontFamily="@font/autour_one"
+        android:text="10"
+        android:textColor="@color/white"
+        android:textSize="@dimen/medium_txt_size"
+        app:layout_constraintBottom_toBottomOf="@+id/second_team_quarter_img"
+        app:layout_constraintStart_toEndOf="@+id/second_team_quarter_img"
+        app:layout_constraintTop_toTopOf="@+id/second_team_quarter_img"/>
+
+    <ImageButton
+        android:layout_width="48dp"
+        android:layout_height="32dp"
+        android:layout_marginEnd="2dp"
+        android:background="@drawable/recaps"
+        app:layout_constraintBottom_toBottomOf="@+id/second_team_quarter_score"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/first_team_quarter_score"/>
+
+  </android.support.constraint.ConstraintLayout>
+
+</android.support.v7.widget.CardView>

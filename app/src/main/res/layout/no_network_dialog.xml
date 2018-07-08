@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/pureRed">
+
+  <ImageView
+      android:id="@+id/imageView3"
+      android:layout_width="match_parent"
+      android:layout_height="100dp"
+      android:alpha=".4"
+      android:background="@drawable/recap_match_bg"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"/>
+
+  <ImageView
+      android:id="@+id/imageView2"
+      android:layout_width="@dimen/small_view_width"
+      android:layout_height="@dimen/small_view_height"
+      android:layout_marginStart="@dimen/small_margin"
+      android:layout_marginTop="@dimen/small_margin"
+      android:scaleType="fitXY"
+      android:src="@drawable/no_wifi"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"/>
+
+  <TextView
+      android:id="@+id/textView4"
+      android:layout_width="0dp"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="@dimen/large_margin"
+      android:fontFamily="@font/autour_one"
+      android:text="Check connection availability"
+      android:textColor="@color/white"
+      android:textSize="@dimen/small_txt_size"
+      app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toEndOf="@+id/imageView2"
+      app:layout_constraintTop_toTopOf="@+id/imageView2"/>
+
+  <Button
+      android:id="@+id/check_btn"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="8dp"
+      android:layout_marginEnd="8dp"
+      android:layout_marginStart="8dp"
+      android:layout_marginTop="8dp"
+      android:background="@drawable/btn_background"
+      android:fontFamily="@font/autour_one"
+      android:text="SETTINGS"
+      android:textColor="@color/white"
+      app:layout_constraintBottom_toBottomOf="@+id/imageView3"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/textView4"/>
+
+
+</android.support.constraint.ConstraintLayout>
