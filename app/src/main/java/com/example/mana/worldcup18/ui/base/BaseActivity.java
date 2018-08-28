@@ -19,7 +19,7 @@ public abstract class BaseActivity extends AppCompatActivity {
     setContentView(setLayoutId());
     context = this;
     ButterKnife.bind(this);
-  }
+    }
 
   @Override protected void onPostCreate(@Nullable Bundle savedInstanceState) {
     super.onPostCreate(savedInstanceState);

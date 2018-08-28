@@ -64,7 +64,6 @@ public class HistoryFragment extends BaseFragment implements OnViewClicked {
   @Override public void onResume() {
     super.onResume();
     insertCup();
-
   }
 
   @Override public void onPause() {
@@ -255,6 +254,11 @@ public class HistoryFragment extends BaseFragment implements OnViewClicked {
         R.drawable.argentina, 0, "NETHERLANDS", R.drawable.netherlands, "Maracanã, Rio de Janeiro",
         "James Rodríguez", R.drawable.colombia, 6, "Lionel Messi", R.drawable.argentina,
         "Manuel Neuer", R.drawable.germany, "WzhelIPg7po", false);
+
+    History russia2018 = new History("Russia 2018", "FRANCE", R.drawable.france, 4, "CROATIA",
+        R.drawable.croatia, 2, "BELGIUM", R.drawable.belgium," Luzhniki Stadium ,Moscow",
+        "Harry Kane", R.drawable.england, 6, "Luka Modric", R.drawable.croatia,
+        " Thibaut Courtois", R.drawable.belgium, "mL7Ad4JYGeM", false);
     viewModel.insertWcDetails(uru1930);
     viewModel.insertWcDetails(italy1934);
     viewModel.insertWcDetails(france1938);
@@ -275,6 +279,7 @@ public class HistoryFragment extends BaseFragment implements OnViewClicked {
     viewModel.insertWcDetails(germany2006);
     viewModel.insertWcDetails(rsa2010);
     viewModel.insertWcDetails(brazil2014);
+    viewModel.insertWcDetails(russia2018);
   }
 
   private void instantiateList() {

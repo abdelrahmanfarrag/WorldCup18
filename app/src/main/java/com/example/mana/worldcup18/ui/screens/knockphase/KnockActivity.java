@@ -40,6 +40,7 @@ public class KnockActivity extends BaseActivity implements OnViewClicked {
   @BindString(R.string.japan) String japan;
   @BindString(R.string.round16) String round16;
   @BindString(R.string.quarterfinal) String quarterFinal;
+  @BindString(R.string.semifinal) String semiFinal;
 
   @BindString(R.string.kaliningrad) String kaliningrad;
   @BindString(R.string.spartak) String spartak;
@@ -74,6 +75,7 @@ public class KnockActivity extends BaseActivity implements OnViewClicked {
     super.onResume();
     insertRound16Matches();
     insertRoundQuarterFinal();
+    insertRoundSemiFinals();
   }
 
   @Override protected void onDestroy() {
@@ -159,9 +161,27 @@ public class KnockActivity extends BaseActivity implements OnViewClicked {
     viewModel.insertKnockMatch(fourthMatch);
   }
 
+  private void insertRoundSemiFinals() {
+    Knock firstMatch = new Knock(france, 1, R.drawable.france, belguim, 0, R.drawable.belgium
+        , peterspurg, "Tues, 7/10", "ntQsMSuEbyg", 0, semiFinal, "");
+    Knock secondMatch =
+        new Knock(croatia, 2, R.drawable.croatia, england, 1, R.drawable.england, luMoscow,
+            "Wed, 7/11", "gi_2GELMwfY", 0, semiFinal, "Croatia win after extra time");
+    Knock thirdAndforth =
+        new Knock(belguim, 2, R.drawable.belgium, england, 0, R.drawable.england, peterspurg,
+            "Sat, 7/14", "x_5SJPKMHAA", 0, "Play-off for third place", "");
+    Knock finalMatch =
+        new Knock(france, 4, R.drawable.france, croatia, 2, R.drawable.croatia, luMoscow,
+            "Sun, 7/15", "GrsEAvRerTg", 0, "Final", "");
+    viewModel.insertKnockMatch(firstMatch);
+    viewModel.insertKnockMatch(secondMatch);
+    viewModel.insertKnockMatch(thirdAndforth);
+    viewModel.insertKnockMatch(finalMatch);
+  }
+
   @Override public void onRecapClick(String id) {
     if (id.equalsIgnoreCase("")) {
-      Common.ToastMsg(getContext(),"NOT READY YET");
+      Common.ToastMsg(getContext(), "NOT READY YET");
     } else {
       Intent intent = new Intent(getContext(), YoutubeVideos.class);
       intent.putExtra(Constants.EXTRA_VIDEO_ID, id);

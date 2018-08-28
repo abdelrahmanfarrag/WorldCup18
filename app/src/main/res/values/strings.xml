@@ -66,6 +66,7 @@
   <string name="knockout">TO KNOCKOUT PHASE</string>
   <string name="round16">Round of 16</string>
   <string name="quarterfinal">Quarter Final</string>
+  <string name="semifinal">Semi Final</string>
 
   <!-- API KEY !-->
   <string name="api_key">AIzaSyAYIQlTq-hOgZWmTqJHKlARbf109_tARYI</string>
